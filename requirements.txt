@@ -1,3 +1,2 @@
 mysql
 telegram
-python
