@@ -9,10 +9,10 @@ from telegram import *
 from telegram.ext import MessageHandler, Filters
 
 db = mysql.connector.connect(
-    host="localhost",
-    user="PUT YOUR ROOT",
-    passwd="PUT YOUR PASSWORD",
-    database="PUT YOUR DB",
+    host="containers-us-west-38.railway.app",
+    user="root",
+    passwd="gzdgILntHvnI5Pnj3kdQ",
+    database="railway",
     autocommit=True)
 mycursor = db.cursor(buffered=True)
 
